@@ -71,6 +71,6 @@ $totals = [
 
 echo sprintf("%-32s%s\n", "Breakdown", "Total Spend");
 foreach ($totals as $title => $total) {
-    echo sprintf("%-32%f\n", $title, $total);
+    echo sprintf("%-32s%f\n", $title, $total);
 }
 
